@@ -59,9 +59,26 @@ A estrutura do projeto está organizada da seguinte forma:
        python -m venv venv
        source venv/bin/activate
     ```
+  ## Instalação das Dependências
 
-2. Executando Testes
-    Você pode executar os testes de comportamento usando o Behave. Certifique-se de estar no diretório raiz do projeto.
-   
+Para executar este projeto, você precisará das seguintes dependências. Certifique-se de que você possui o Python e o pip instalados antes de prosseguir.
+
+1. **Selenium:** Biblioteca para automação de testes web com Python.
+   ```bash
+   pip install selenium
+
+2. **Behave:** Uma biblioteca Python para escrever testes em estilo BDD (Behavior-Driven Development).
+   ```bash
+   pip install behave
+
+3. **Faker:** Uma biblioteca Python para geração de dados falsos, útil para testes.
+   ```bash
+   pip install Faker
+
+4. **Firefox:** O navegador Firefox, que será controlado pelo Selenium. Certifique-se de ter o Firefox instalado em seu sistema.
+
+5. **Editor de Código:** Um editor de código de sua escolha, como Visual Studio Code, PyCharm, etc.
+
+Depois de instalar as dependências, você estará pronto para executar e trabalhar neste projeto de automação de testes com Behave e Selenium.
 
    
