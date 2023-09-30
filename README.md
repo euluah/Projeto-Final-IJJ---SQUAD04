@@ -29,3 +29,39 @@ Os testes serão executados utilizando as seguintes tecnologias:
 - **Behave:** Para a automação de testes de comportamento.
 - **Selenium:** Para a automação de testes de interface do usuário.
 - **Python:** Para a programação dos testes e scripts de automação.
+
+## Estrutura do Projeto
+
+A estrutura do projeto está organizada da seguinte forma:
+
+- **features/:** Contém os cenários de teste definidos em arquivos .feature.
+
+- **steps/:** Contém a implementação dos passos dos cenários de teste em Python.
+
+- **pages/:** Contém classes para interagir com os elementos da interface do usuário.
+
+- **reports/:** Armazena os resultados dos testes e relatórios gerados.
+
+  ## Instalação
+
+1. Clone este repositório em sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   ```
+   - Navegue até o diretório do projeto:
+      
+   ```bash
+   cd nome-do-projeto
+   ```
+  - Crie e ative um ambiente virtual (opcional, mas recomendado):
+    ```bash
+       python -m venv venv
+       source venv/bin/activate
+    ```
+
+2. Executando Testes
+    Você pode executar os testes de comportamento usando o Behave. Certifique-se de estar no diretório raiz do projeto.
+   
+
+   
